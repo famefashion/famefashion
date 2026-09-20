@@ -68,14 +68,14 @@ root@datawire:~$ cat /etc/devin/core.json
 <div align="center">
 
   <!-- GitHub Stats Card -->
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=ff0055&text_color=94a3b8" height="175" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=famefashion&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f0ff&icon_color=ff0055&text_color=94a3b8" height="175" alt="GitHub Stats" />
   <!-- GitHub Streak Card -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true&background=0d1117&ring=00f0ff&fire=ff0055&currStreakLabel=00f0ff" height="175" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=famefashion&theme=tokyonight&hide_border=true&background=0d1117&ring=00f0ff&fire=ff0055&currStreakLabel=00f0ff" height="175" alt="GitHub Streak" />
 
   <br/><br/>
 
   <!-- Top Languages Card -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=94a3b8" height="165" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=famefashion&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f0ff&text_color=94a3b8" height="165" alt="Top Languages" />
 
 </div>
 
@@ -85,9 +85,9 @@ root@datawire:~$ cat /etc/devin/core.json
 
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake.svg">
-    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_GITHUB_USERNAME/output/github-contribution-grid-snake-dark.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/famefashion/famefashion/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/famefashion/famefashion/output/github-contribution-grid-snake.svg">
+    <img alt="github contribution grid snake" src="https://raw.githubusercontent.com/famefashion/famefashion/output/github-contribution-grid-snake-dark.svg" width="100%">
   </picture>
 </div>
 
@@ -104,7 +104,7 @@ root@datawire:~$ cat /etc/devin/core.json
     <img src="https://img.shields.io/badge/Website-datawire.cc-ff0055?style=for-the-badge&logo=googlechrome&logoColor=white" />
   </a>
   &nbsp;
-  <a href="https://github.com/YOUR_GITHUB_USERNAME">
+  <a href="https://github.com/famefashion">
     <img src="https://img.shields.io/badge/GitHub-Profile-ffffff?style=for-the-badge&logo=github&logoColor=black" />
   </a>
 </div>
