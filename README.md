@@ -120,8 +120,8 @@ RGF0YVdpcmV7ZjRtM2Y0c2gxMG5fcDBzdHVyM19tYXN0M3JfdjNydzRsbH0=
 
 | Platform | Specialization | Architecture | Status |
 | :--- | :--- | :--- | :--- |
-| **[DataWire.cc](https://datawire.cc)** | All-in-One OSINT, CSINT & GEOINT Intelligence Suite | Rust • PostgreSQL • Python • Async Pipelines | `🟢 PRODUCTION` |
-| **Veigram** | Zero-Log End-to-End Encrypted Communications Platform | C++ • Rust • Ephemeral Onion Mesh • Zero Telemetry | `🟣 IN ACTIVE ENGINEERING` |
+| **[DataWire.cc](https://datawire.cc)** | All-in-One OSINT, CSINT & GEOINT Intelligence Suite | Vite.js • PostgreSQL • Python • Async Pipelines | `🟢 PRODUCTION` |
+| **Veigram** | Zero-Log End-to-End Encrypted Communications Platform | ELECTRON.js • Rust • Encrypted and Secure • Zero Telemetry | `🟣 IN ACTIVE ENGINEERING` |
 
 </div>
 
