@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 290" width="100%" height="290">
+  <defs>
+    <linearGradient id="hudBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090514" />
+      <stop offset="50%" stop-color="#120826" />
+      <stop offset="100%" stop-color="#080410" />
+    </linearGradient>
+
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7e22ce" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <radialGradient id="radarSweep" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c084fc" stop-opacity="0.4" />
+      <stop offset="60%" stop-color="#a855f7" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#3b0764" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Courier New', monospace; }
+    .label { font-size: 12px; fill: #e2e8f0; font-weight: bold; }
+    .val { font-size: 11px; fill: #c084fc; font-weight: bold; }
+    .bar-bg { fill: #1c0e35; rx: 4px; }
+    .bar-fill { rx: 4px; fill: url(#barGrad); }
+    .hud-title { font-size: 15px; fill: #ffffff; letter-spacing: 3px; font-weight: 900; }
+    .radar-line { stroke: #3b0764; stroke-width: 1; fill: none; }
+    .radar-axis { stroke: #581c87; stroke-width: 0.8; stroke-dasharray: 4,4; }
+    @keyframes blip {
+      0% { opacity: 0; }
+      50% { opacity: 1; transform: scale(1.2); }
+      100% { opacity: 0; }
+    }
+  </style>
+
+  <!-- Frame Background -->
+  <rect width="900" height="290" rx="14" fill="url(#hudBg)" stroke="#3b0764" stroke-width="1.5" />
+
+  <!-- Top Title Header -->
+  <g transform="translate(30, 32)">
+    <rect x="-8" y="-14" width="6" height="20" fill="#a855f7" rx="2" />
+    <text x="8" y="2" class="mono hud-title">OFFENSIVE ARSENAL &amp; CAPABILITY MATRIX</text>
+    <text x="830" y="2" class="mono" font-size="11" fill="#a855f7" text-anchor="end">SYS_AUDIT :: COMPLIANT</text>
+    <line x1="0" y1="16" x2="840" y2="16" stroke="#2e1065" stroke-width="1" />
+  </g>
+
+  <!-- LEFT: Radar Sweep Widget -->
+  <g transform="translate(40, 60)">
+    <!-- Radar Rings -->
+    <circle cx="100" cy="100" r="90" class="radar-line" />
+    <circle cx="100" cy="100" r="65" class="radar-line" />
+    <circle cx="100" cy="100" r="40" class="radar-line" />
+    <circle cx="100" cy="100" r="15" class="radar-line" />
+
+    <!-- Axes -->
+    <line x1="10" y1="100" x2="190" y2="100" class="radar-axis" />
+    <line x1="100" y1="10" x2="100" y2="190" class="radar-axis" />
+
+    <!-- Radar Target Blips -->
+    <circle cx="140" cy="65" r="3.5" fill="#4ade80">
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2s" repeatCount="indefinite" />
+    </circle>
+    <text x="148" y="68" class="mono" font-size="8" fill="#4ade80">SQLi</text>
+
+    <circle cx="60" cy="130" r="3.5" fill="#c084fc">
+      <animate attributeName="opacity" values="1;0.2;1" dur="2.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="68" y="133" class="mono" font-size="8" fill="#c084fc">XSS</text>
+
+    <circle cx="130" cy="150" r="3.5" fill="#38bdf8">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite" />
+    </circle>
+    <text x="138" y="153" class="mono" font-size="8" fill="#38bdf8">REV_ENG</text>
+
+    <!-- Radar Sweep Beam (Rotating via animateTransform) -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0 100 100" to="360 100 100" dur="4s" repeatCount="indefinite" />
+      <path d="M 100 100 L 190 100 A 90 90 0 0 0 163 36 Z" fill="url(#radarSweep)" />
+      <line x1="100" y1="100" x2="190" y2="100" stroke="#c084fc" stroke-width="1.8" />
+    </g>
+
+    <!-- Radar Readout -->
+    <text x="100" y="210" class="mono" font-size="10" fill="#94a3b8" text-anchor="middle">ACTIVE THREAT RADAR</text>
+  </g>
+
+  <!-- RIGHT: Skill Capability Telemetry Bars -->
+  <g transform="translate(280, 68)">
+    
+    <!-- Item 1: SQL Injection & Extraction -->
+    <g transform="translate(0, 0)">
+      <text x="0" y="12" class="mono label">SQL INJECTION &amp; SQL DUMPING (SQLi)</text>
+      <text x="560" y="12" class="mono val" text-anchor="end">98% [SURFACE PWNED]</text>
+      <rect x="0" y="20" width="560" height="9" class="bar-bg" />
+      <rect x="0" y="20" width="548" height="9" class="bar-fill">
+        <animate attributeName="width" values="0;548" dur="1.2s" fill="freeze" />
+      </rect>
+    </g>
+
+    <!-- Item 2: WEBEXP & Pentesting -->
+    <g transform="translate(0, 42)">
+      <text x="0" y="12" class="mono label">WEB EXPLOITATION (WEBEXP / PENTESTING)</text>
+      <text x="560" y="12" class="mono val" text-anchor="end">96% [HIGH POSTURE]</text>
+      <rect x="0" y="20" width="560" height="9" class="bar-bg" />
+      <rect x="0" y="20" width="537" height="9" class="bar-fill">
+        <animate attributeName="width" values="0;537" dur="1.4s" fill="freeze" />
+      </rect>
+    </g>
+
+    <!-- Item 3: XSS Vulnerability Finding -->
+    <g transform="translate(0, 84)">
+      <text x="0" y="12" class="mono label">XSS DISCOVERY &amp; CLIENT DOM AUDITING</text>
+      <text x="560" y="12" class="mono val" text-anchor="end">94% [INSPECTION LOCKED]</text>
+      <rect x="0" y="20" width="560" height="9" class="bar-bg" />
+      <rect x="0" y="20" width="526" height="9" class="bar-fill">
+        <animate attributeName="width" values="0;526" dur="1.6s" fill="freeze" />
+      </rect>
+    </g>
+
+    <!-- Item 4: Reverse Engineering & Binary Analysis -->
+    <g transform="translate(0, 126)">
+      <text x="0" y="12" class="mono label">REVERSE ENGINEERING &amp; BINARY READING (ASM/HEX)</text>
+      <text x="560" y="12" class="mono val" text-anchor="end">91% [DISASSEMBLY MODE]</text>
+      <rect x="0" y="20" width="560" height="9" class="bar-bg" />
+      <rect x="0" y="20" width="509" height="9" class="bar-fill">
+        <animate attributeName="width" values="0;509" dur="1.8s" fill="freeze" />
+      </rect>
+    </g>
+
+    <!-- Item 5: Social Engineering & OSINT Tradecraft -->
+    <g transform="translate(0, 168)">
+      <text x="0" y="12" class="mono label">SOCIAL ENGINEERING &amp; INTELLIGENCE TRADECRAFT</text>
+      <text x="560" y="12" class="mono val" text-anchor="end">95% [HUMAN VECTOR]</text>
+      <rect x="0" y="20" width="560" height="9" class="bar-bg" />
+      <rect x="0" y="20" width="532" height="9" class="bar-fill">
+        <animate attributeName="width" values="0;532" dur="2.0s" fill="freeze" />
+      </rect>
+    </g>
+
+  </g>
+
+  <!-- Bottom Terminal Status Bar -->
+  <g transform="translate(30, 276)">
+    <text x="0" y="0" class="mono" font-size="10" fill="#64748b">
+      ADDR: <tspan fill="#a855f7">0x7FFF5FBFF8C0</tspan> | CALL: <tspan fill="#c084fc">sys_execve("/bin/recon")</tspan> | CSINT_GEOINT: <tspan fill="#4ade80">ONLINE</tspan>
+    </text>
+  </g>
+</svg>

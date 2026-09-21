@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 195" width="100%" height="195">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090514" />
+      <stop offset="50%" stop-color="#110822" />
+      <stop offset="100%" stop-color="#080411" />
+    </linearGradient>
+    <linearGradient id="langGrad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: 'Courier New', monospace; }
+    .card-title { font-size: 14px; fill: #ffffff; letter-spacing: 2px; font-weight: bold; }
+    .metric-val { font-size: 24px; fill: #c084fc; font-weight: 900; }
+    .metric-sub { font-size: 11px; fill: #94a3b8; }
+    .lang-label { font-size: 11px; fill: #e2e8f0; font-weight: bold; }
+    .lang-pct { font-size: 10px; fill: #a855f7; }
+  </style>
+
+  <!-- Frame Background -->
+  <rect width="900" height="195" rx="14" fill="url(#cardBg)" stroke="#3b0764" stroke-width="1.5" />
+
+  <!-- Title Line -->
+  <g transform="translate(30, 28)">
+    <rect x="-8" y="-12" width="5" height="18" fill="#c084fc" rx="2" />
+    <text x="8" y="2" class="mono card-title">FAMEFASHION // HARDENED TELEMETRY STREAM</text>
+    <line x1="0" y1="14" x2="840" y2="14" stroke="#2e1065" stroke-width="1" />
+  </g>
+
+  <!-- Metric Column 1: Core Engine -->
+  <g transform="translate(45, 68)">
+    <rect width="250" height="100" rx="10" fill="#0e071c" stroke="#2e1065" stroke-width="1" />
+    <text x="20" y="32" class="mono metric-val">DATAWIRE.CC</text>
+    <text x="20" y="52" class="mono metric-sub">All-in-One OSINT • CSINT • GEOINT</text>
+    <line x1="20" y1="62" x2="230" y2="62" stroke="#3b0764" stroke-width="0.8" />
+    <circle cx="28" cy="80" r="4" fill="#4ade80" />
+    <text x="40" y="84" class="mono" font-size="11" fill="#4ade80">ENGINE CORE: ACTIVE</text>
+  </g>
+
+  <!-- Metric Column 2: Active Architecture -->
+  <g transform="translate(325, 68)">
+    <rect width="250" height="100" rx="10" fill="#0e071c" stroke="#2e1065" stroke-width="1" />
+    <text x="20" y="32" class="mono metric-val" fill="#38bdf8">VEIGRAM</text>
+    <text x="20" y="52" class="mono metric-sub">Next-Gen High-Concurrency Architecture</text>
+    <line x1="20" y1="62" x2="230" y2="62" stroke="#3b0764" stroke-width="0.8" />
+    <circle cx="28" cy="80" r="4" fill="#c084fc">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+    <text x="40" y="84" class="mono" font-size="11" fill="#c084fc">BUILD: IN ENGINEERING</text>
+  </g>
+
+  <!-- Metric Column 3: Stack Breakdown -->
+  <g transform="translate(605, 68)">
+    <rect width="250" height="100" rx="10" fill="#0e071c" stroke="#2e1065" stroke-width="1" />
+    
+    <!-- Row 1 -->
+    <text x="16" y="24" class="mono lang-label">WEB TRINITY (JS/TS/HTML/CSS)</text>
+    <rect x="16" y="30" width="218" height="6" rx="3" fill="#1f0f38" />
+    <rect x="16" y="30" width="180" height="6" rx="3" fill="url(#langGrad1)" />
+
+    <!-- Row 2 -->
+    <text x="16" y="52" class="mono lang-label">SYSTEMS (C / C++ / RUST / ASM)</text>
+    <rect x="16" y="58" width="218" height="6" rx="3" fill="#1f0f38" />
+    <rect x="16" y="58" width="165" height="6" rx="3" fill="#818cf8" />
+
+    <!-- Row 3 -->
+    <text x="16" y="80" class="mono lang-label">RECON &amp; DB (PY / SQLPOSTGRE)</text>
+    <rect x="16" y="86" width="218" height="6" rx="3" fill="#1f0f38" />
+    <rect x="16" y="86" width="195" height="6" rx="3" fill="#38bdf8" />
+  </g>
+</svg>
