@@ -7,7 +7,7 @@
 
   <!-- Dynamic Typing Terminal Line -->
   <a href="https://datawire.cc">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2400&pause=1100&color=C084FC&center=true&vCenter=true&width=680&height=42&lines=Web+Exploitation+%7C+SQLi+%7C+XSS+%7C+Web+Pentesting;Reverse+Engineering+%26+Binary+Disassembly;PostgreSQL+%7C+Rust+%7C+C%2B%2B+%7C+C+%7C+Python+%7C+Node;Architect+%40+DataWire.cc+(OSINT%2C+CSINT%2C+GEOINT);Next+Major+Build%3A+Veigram" alt="Typing Terminal" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=19&duration=2400&pause=1100&color=C084FC&center=true&vCenter=true&width=680&height=42&lines=Web+Exploitation+%7C+SQLi+%7C+XSS+%7C+Web+Pentesting;Veigram%3A+Upcoming+Zero-Log+Encrypted+Communications;Reverse+Engineering+%26+Binary+Disassembly;Architect+%40+DataWire.cc+(OSINT%2C+CSINT%2C+GEOINT);PostgreSQL+%7C+Rust+%7C+C%2B%2B+%7C+C+%7C+Python+%7C+Node" alt="Typing Terminal" />
   </a>
 
   <br/>
@@ -88,6 +88,20 @@
 </details>
 
 <details>
+<summary><b>▶ <code>famefashion@crypto:~$ ./veigram_daemon --verify-zero-log</code></b></summary>
+
+```console
+[+] VEIGRAM CRYPTOGRAPHIC DAEMON v0.9.8-ALPHA
+[+] ARCHITECTURE      : Zero-Knowledge Decentralized Mesh
+[+] CIPHER SUITE      : Double Ratchet + XChaCha20-Poly1305 E2EE
+[+] AUDIT LOG POLICY  : ZERO-LOG ENFORCED (0 bytes persisted to disk)
+[+] ROUTING RELAYS    : Ephemeral Onion Nodes
+[+] TELEMETRY CHECK   : No message tracking, zero indexing [VERIFIED]
+[+] STATUS            : SECURE MESH OPERATIONAL
+```
+</details>
+
+<details>
 <summary><b>🕵️‍♂️ <code>[EASTER EGG] Decrypt Intercepted Transmission</code></b></summary>
 
 ```text
@@ -100,25 +114,44 @@ RGF0YVdpcmV7ZjRtM2Y0c2gxMG5fcDBzdHVyM19tYXN0M3JfdjNydzRsbH0=
 
 ---
 
-### 🚀 Flagship Engines & Active Architectures
+### 🚀 Flagship Intelligence & Cryptographic Platforms
 
 <div align="center">
 
-| System | Focus | Core Stack | Status |
+| Platform | Specialization | Architecture | Status |
 | :--- | :--- | :--- | :--- |
-| **[DataWire.cc](https://datawire.cc)** | All-in-One OSINT, CSINT & GEOINT Platform | Rust, PostgreSQL, Python, Async Workers | `🟢 PRODUCTION` |
-| **Veigram** | Next-Gen Ultra-Low Latency Systems Architecture | C++, C, Rust, High-Concurrency Queues | `🟣 IN ENGINEERING` |
+| **[DataWire.cc](https://datawire.cc)** | All-in-One OSINT, CSINT & GEOINT Intelligence Suite | Rust • PostgreSQL • Python • Async Pipelines | `🟢 PRODUCTION` |
+| **Veigram** | Zero-Log End-to-End Encrypted Communications Platform | C++ • Rust • Ephemeral Onion Mesh • Zero Telemetry | `🟣 IN ACTIVE ENGINEERING` |
 
 </div>
 
 <br/>
 
+<!-- Veigram Showcase Card with Ghost Mascot -->
 <div align="center">
-  <!-- Veigram Asset Embedded with Purple Cyber Glow -->
-  <a href="https://github.com/famefashion">
-    <img src="./assets/veigram.png" width="360" alt="Veigram Official Asset" style="border-radius: 14px; border: 2px solid #a855f7; box-shadow: 0 0 25px rgba(168, 85, 247, 0.45);" />
-  </a>
-  <p><sub><b>VEIGRAM CORE</b> — High-throughput systems architecture actively under construction.</sub></p>
+  <table border="0" style="background: linear-gradient(135deg, #090514 0%, #15092a 50%, #090514 100%); border: 1.5px solid #3b0764; border-radius: 16px; padding: 20px; max-width: 840px; box-shadow: 0 0 30px rgba(168, 85, 247, 0.25);">
+    <tr>
+      <td width="30%" align="center" style="border: none; vertical-align: middle;">
+        <img src="./assets/veigram_mascot.png" width="210" alt="Veigram Ghost Mascot" style="filter: drop-shadow(0 0 20px #a855f7);" />
+      </td>
+      <td width="70%" align="left" style="border: none; vertical-align: middle; padding-left: 20px;">
+        <h3 style="margin-top: 0; color: #ffffff; letter-spacing: 2px;">🔮 VEIGRAM // ZERO-LOG ENCRYPTED COMMUNICATIONS</h3>
+        <p style="color: #cbd5e1; font-size: 13px; line-height: 1.6;">
+          Next-generation privacy-first real-time communications network built on zero-knowledge cryptography. Engineered from the ground up to eradicate surveillance vectors, metadata retention, and centralized indexing.
+        </p>
+        <p>
+          <img src="https://img.shields.io/badge/ARCHITECTURE-ZERO__LOG_POLICY-9333ea?style=for-the-badge&logo=ghost&logoColor=white" />
+          <img src="https://img.shields.io/badge/ENCRYPTION-E2EE_CRYPTOGRAPHIC_RATCHET-7e22ce?style=for-the-badge&logo=lock&logoColor=white" />
+          <img src="https://img.shields.io/badge/STATUS-ACTIVE_BUILD-a855f7?style=for-the-badge&logo=git&logoColor=white" />
+        </p>
+        <ul style="color: #94a3b8; font-size: 12px; margin-bottom: 0;">
+          <li><b>Zero Disk Persistence:</b> Ephemeral in-memory buffers automatically scrubbed upon packet transit.</li>
+          <li><b>Post-Quantum Security:</b> Forward-secret ratchets and authenticated end-to-end cryptographic handshakes.</li>
+          <li><b>High-Throughput Mesh:</b> Ultra-low latency voice &amp; text relay infrastructure built for scale.</li>
+        </ul>
+      </td>
+    </tr>
+  </table>
 </div>
 
 ---
